@@ -1,6 +1,6 @@
 package week1
 
-class UnionFind(N:Int) {
+open class UnionFind(N:Int) {
     val id:IntArray = IntArray(N)
 
     init {
@@ -16,6 +16,14 @@ class UnionFind(N:Int) {
         }
     }
     fun connected(p:Int,q:Int) : Boolean = id[p] == id[q]
+
+    fun print() {
+        var printArrInd = IntArray(id.size)
+        for(i in 0 until id.size) printArrInd[i] = i
+
+        println(printArrInd.toList().toString())
+        println(id.toList().toString())
+    }
 
 }
 fun main(args: Array<String>) {

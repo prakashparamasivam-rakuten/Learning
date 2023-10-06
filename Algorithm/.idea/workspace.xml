@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f64ef13e-772f-40f9-98cd-24bded87cad4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/week1/QuickUnionFind.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/week1/QuickUnionFindWithPathCompression.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/week1/UnionFind.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/week1/WeightedQuickUnionFind.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/week1/WeightedQuickUnionFindWithPathCompression.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/week1/tiny_UF.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/week1/practice/FindLargestInUnionFind.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/week1/UnionFind.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/week1/UnionFind.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -31,10 +34,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/prakash.paramasivam/Code/Learning/Algorithm",
+    "settings.editor.selected.configurable": "editor.preferences.smartKeys"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.WeightedQuickUnionFindKt">
+  <component name="RunManager" selected="Kotlin.FindLargestInUnionFindKt">
+    <configuration name="FindLargestInUnionFindKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week1.practice.FindLargestInUnionFindKt" />
+      <module name="Algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="Algorithm" />
@@ -58,8 +70,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.WeightedQuickUnionFindKt" />
+        <item itemvalue="Kotlin.FindLargestInUnionFindKt" />
         <item itemvalue="Kotlin.QuickUnionFindKt" />
+        <item itemvalue="Kotlin.WeightedQuickUnionFindKt" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
