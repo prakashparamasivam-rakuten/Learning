@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f64ef13e-772f-40f9-98cd-24bded87cad4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/week2/FixedArrayCapacityStack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/week2/LinkedStack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/week2/StackTestClient.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/week2/DynamicArrayStack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/week2/LinkedQueue.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +35,23 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/prakash.paramasivam/Code/Learning/Algorithm&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/prakash.paramasivam/Code/Learning/Algorithm/src/main/kotlin/week2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.FixedArrayCapacityStackKt">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/week2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.DynamicArrayStackKt">
+    <configuration name="DynamicArrayStackKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.DynamicArrayStackKt" />
+      <module name="Algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindLargestInUnionFindKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week1.practice.FindLargestInUnionFindKt" />
       <module name="Algorithm" />
@@ -70,20 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeightedQuickUnionFindKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.WeightedQuickUnionFindKt" />
-      <module name="Algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.DynamicArrayStackKt" />
         <item itemvalue="Kotlin.FixedArrayCapacityStackKt" />
         <item itemvalue="Kotlin.LinkedStackKt" />
         <item itemvalue="Kotlin.FindLargestInUnionFindKt" />
         <item itemvalue="Kotlin.QuickUnionFindKt" />
-        <item itemvalue="Kotlin.WeightedQuickUnionFindKt" />
       </list>
     </recent_temporary>
   </component>
@@ -97,16 +100,5 @@
       <updated>1696484750791</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/week2/FixedArrayCapacityStack.kt</url>
-          <line>38</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
