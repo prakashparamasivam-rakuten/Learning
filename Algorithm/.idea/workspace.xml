@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f64ef13e-772f-40f9-98cd-24bded87cad4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/week2/DynamicArrayStack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/week2/LinkedQueue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/week2/FixedArrayCapacityQueue.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/week2/FixedArrayCapacityStack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/week2/FixedArrayCapacityStack.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -44,7 +45,7 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/week2" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.DynamicArrayStackKt">
+  <component name="RunManager" selected="Kotlin.FixedArrayCapacityQueueKt">
     <configuration name="DynamicArrayStackKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week2.DynamicArrayStackKt" />
       <module name="Algorithm" />
@@ -54,6 +55,13 @@
     </configuration>
     <configuration name="FindLargestInUnionFindKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week1.practice.FindLargestInUnionFindKt" />
+      <module name="Algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FixedArrayCapacityQueueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.FixedArrayCapacityQueueKt" />
       <module name="Algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,20 +81,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickUnionFindKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.QuickUnionFindKt" />
-      <module name="Algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FixedArrayCapacityQueueKt" />
         <item itemvalue="Kotlin.DynamicArrayStackKt" />
         <item itemvalue="Kotlin.FixedArrayCapacityStackKt" />
         <item itemvalue="Kotlin.LinkedStackKt" />
         <item itemvalue="Kotlin.FindLargestInUnionFindKt" />
-        <item itemvalue="Kotlin.QuickUnionFindKt" />
       </list>
     </recent_temporary>
   </component>

@@ -10,6 +10,7 @@ fun main(args: Array<String>) {
             if (it.trim().equals("-")) {
                 val poppedItem = arrayStack.pop()
                 println("popped : ${poppedItem.toString()}")
+                println("Current Stack : $arrayStack")
             } else {
                 arrayStack.push(it)
             }
