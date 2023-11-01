@@ -1,7 +1,7 @@
 package week2
 
 fun main(args: Array<String>) {
-    val arrayStack = DynamicArrayStack<String>(10)
+    val arrayStack = DynamicArrayStack<String>()
     while (true) {
         println(" Enter the string for stack :")
         val string: String? = readLine()
@@ -18,7 +18,7 @@ fun main(args: Array<String>) {
 }
 
 @Suppress("UNCHECKED_CAST")
-class DynamicArrayStack<T>(val capacity: Int) {
+class DynamicArrayStack<T>() {
     private var itemArray: Array<Any?> = Array(size = 1) { null }
 
     private var N: Int = 0;
@@ -32,7 +32,7 @@ class DynamicArrayStack<T>(val capacity: Int) {
     }
 
     fun pop(): T? {
-        if (N <= 0 || N >= capacity) return null
+        if (N <= 0 || N >= itemArray.size) return null
         val item = itemArray.get(--N)
         itemArray.set(N, null)
         if (N > 0 && N == itemArray.size / 4) resize(itemArray.size / 2)

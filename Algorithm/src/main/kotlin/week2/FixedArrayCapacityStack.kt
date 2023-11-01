@@ -42,4 +42,7 @@ class FixedArrayCapacityStack<T>(val capacity: Int) {
         itemArray?.set(N, null)
         return item as T
     }
+    override fun toString(): String {
+        return itemArray?.toList().toString()
+    }
 }
